@@ -17,6 +17,7 @@ function isDisposable(email) {
 }
 
 module.exports = {
-    isFree: isFree,
-    isDisposable: isDisposable
+  isFree: isFree,
+  isDisposable: isDisposable,
+  getFreeEmailsList: () => free
 };
